@@ -8,7 +8,7 @@ import {
   UserRoundPlus,
   X,
 } from "lucide-react";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 
 export function App() {
   const [isGuestsInputOpen, setIsGuestsInputOpen] = useState(false);
